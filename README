@@ -1,0 +1,29 @@
+# Kyle Matsumoto
+# kytmatsu
+# CMPS101 Spring 2015
+# 29/5/15
+# pa03
+
+The purpose of this assignment is to write a scc function in C code.
+
+I am submitting README Makefile intList.h intList.c stackFunc.c stackFunc.h dfsTrace.c dfsTrace.h dfsPhase2.c dfsPhase2.h scc03.c test0.in.
+
+scc03.c is the main function of the program, it contains the calls that actively print out all of our data. 
+
+intList.c gives us our ADT functions.
+
+intList.h is a header file.
+
+To use the makefile you type in: 
+make scc03
+
+to start the test program use:
+scc03 *filename*
+
+I added many different functions to this program. I implemented a function to create a new stack that is called stackFunc. 
+I also added the files necessary for a dfs as shown in the book, namely, DfsTrace and dfsPhase2. The various functions in these files will do everything from discovery and finish times to printing stacks and arrays
+
+test0.in is the test that we were given.
+
+The rest of the test files are random tests that I gave the program to try to
+find a bug in it.
